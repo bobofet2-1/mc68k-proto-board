@@ -1,0 +1,59 @@
+(kicad_mod (layer "F.Cu")
+  (descr "DS12887 Real Time Clock, 24-pin EDIP (Encapsulated DIP), 0.600\" width, 2.54mm pitch")
+  (tags "DIP EDIP PDIP 24 pin RTC DS12887")
+
+  (attr through_hole)
+
+  (fp_text reference "U1" (at 0 -12.5) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "DS12887" (at 0 12.5) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  ; Body outline on Fab layer
+  (fp_rect (start -7.62 -31.75) (end 7.62 31.75)
+    (stroke (width 0.12) (type solid)) (fill none) (layer "F.Fab")
+  )
+
+  ; Silkscreen outline (slightly larger)
+  (fp_line (start -7.62 -31.75) (end 7.62 -31.75) (stroke (width 0.2) (type solid)) (layer "F.SilkS"))
+  (fp_line (start 7.62 -31.75) (end 7.62 31.75) (stroke (width 0.2) (type solid)) (layer "F.SilkS"))
+  (fp_line (start 7.62 31.75) (end -7.62 31.75) (stroke (width 0.2) (type solid)) (layer "F.SilkS"))
+  (fp_line (start -7.62 31.75) (end -7.62 -31.75) (stroke (width 0.2) (type solid)) (layer "F.SilkS"))
+
+  ; Pin 1 marker
+  (fp_circle (center -6.35 29.21) (end -7.62 29.21) (stroke (width 0.2) (type solid)) (layer "F.SilkS"))
+
+  ; Courtyard
+  (fp_rect (start -8.5 -32.5) (end 8.5 32.5)
+    (stroke (width 0.05) (type dash)) (fill none) (layer "F.CrtYd")
+  )
+
+  ; Pads (through-hole, 2.54mm pitch, 12 pins per side)
+  (pad "1" thru_hole rect (at -10.16 27.94) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "2" thru_hole oval (at -10.16 25.4) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "3" thru_hole oval (at -10.16 22.86) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "4" thru_hole oval (at -10.16 20.32) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "5" thru_hole oval (at -10.16 17.78) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "6" thru_hole oval (at -10.16 15.24) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "7" thru_hole oval (at -10.16 12.7) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "8" thru_hole oval (at -10.16 10.16) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "9" thru_hole oval (at -10.16 7.62) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "10" thru_hole oval (at -10.16 5.08) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "11" thru_hole oval (at -10.16 2.54) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "12" thru_hole oval (at -10.16 0) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+
+  (pad "13" thru_hole oval (at 10.16 0) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "14" thru_hole oval (at 10.16 2.54) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "15" thru_hole oval (at 10.16 5.08) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "16" thru_hole oval (at 10.16 7.62) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "17" thru_hole oval (at 10.16 10.16) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "18" thru_hole oval (at 10.16 12.7) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "19" thru_hole oval (at 10.16 15.24) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "20" thru_hole oval (at 10.16 17.78) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "21" thru_hole oval (at 10.16 20.32) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "22" thru_hole oval (at 10.16 22.86) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "23" thru_hole oval (at 10.16 25.4) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+  (pad "24" thru_hole oval (at 10.16 27.94) (size 1.8 1.8) (drill 1.0) (layers "*.Cu" "*.Mask"))
+)
