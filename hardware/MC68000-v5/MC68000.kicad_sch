@@ -25483,6 +25483,12 @@
 		(uuid "1028b8fc-8baf-437c-817d-9267752139e1")
 	)
 	(junction
+		(at 190.246 391.414)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1451c265-42fd-4147-8e88-64ac4f81952a")
+	)
+	(junction
 		(at 447.04 194.564)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25687,12 +25693,6 @@
 		(uuid "ae755910-e19d-4751-97c5-a370cbf48baa")
 	)
 	(junction
-		(at 553.466 310.134)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af421fe9-9b9f-4fd2-b3b2-2ae8a8bd91b7")
-	)
-	(junction
 		(at 299.72 214.884)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25709,12 +25709,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf9d1234-2f30-4281-bbe5-f912ecdd4790")
-	)
-	(junction
-		(at 553.466 315.214)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c12906ca-8625-47ab-a31b-dfc262d225c2")
 	)
 	(junction
 		(at 553.466 322.58)
@@ -25917,10 +25911,6 @@
 		(uuid "7c6752b9-808b-40b1-8ab3-d3be468b129f")
 	)
 	(no_connect
-		(at 568.706 312.674)
-		(uuid "7f963b93-f7a0-45e8-89b0-ea1a54ddae7a")
-	)
-	(no_connect
 		(at 568.706 290.576)
 		(uuid "8888752a-2c30-4328-8502-c823db69c81c")
 	)
@@ -26120,7 +26110,7 @@
 	)
 	(wire
 		(pts
-			(xy 553.466 315.214) (xy 553.466 322.58)
+			(xy 553.466 297.942) (xy 553.466 322.58)
 		)
 		(stroke
 			(width 0)
@@ -26347,6 +26337,16 @@
 			(type default)
 		)
 		(uuid "19ac64d9-5850-457e-aaaf-c82fd5f5b5f3")
+	)
+	(wire
+		(pts
+			(xy 256.032 393.954) (xy 256.032 391.414)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d19724-b4cd-48a8-b3ac-48e63197c2ef")
 	)
 	(wire
 		(pts
@@ -27150,16 +27150,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 391.414) (xy 256.032 391.414)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f9f40f8-f6b1-4d33-a8fb-f16618d622ea")
-	)
-	(wire
-		(pts
 			(xy 308.356 370.078) (xy 313.182 370.078)
 		)
 		(stroke
@@ -27240,6 +27230,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 396.494) (xy 221.996 396.494)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45653dc6-e7eb-4799-99db-f36876a8a767")
+	)
+	(wire
+		(pts
 			(xy 65.278 96.774) (xy 75.946 96.774)
 		)
 		(stroke
@@ -27250,7 +27250,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.392 335.026) (xy 90.678 335.026)
+			(xy 105.918 335.026) (xy 108.204 335.026)
 		)
 		(stroke
 			(width 0)
@@ -27450,16 +27450,6 @@
 	)
 	(wire
 		(pts
-			(xy 553.466 297.942) (xy 553.466 310.134)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f315198-3dcf-47f0-91d7-6a217275c5d8")
-	)
-	(wire
-		(pts
 			(xy 278.638 330.2) (xy 280.416 330.2)
 		)
 		(stroke
@@ -27580,16 +27570,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 391.414) (xy 227.33 391.414)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57bbedc2-2ba1-4d11-b822-60897dce1f95")
-	)
-	(wire
-		(pts
 			(xy 180.34 93.98) (xy 180.34 91.44)
 		)
 		(stroke
@@ -27650,7 +27630,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.382 391.414) (xy 137.668 391.414)
+			(xy 110.998 391.414) (xy 113.284 391.414)
 		)
 		(stroke
 			(width 0)
@@ -28640,7 +28620,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.908 388.874) (xy 167.894 388.874)
+			(xy 128.524 388.874) (xy 143.51 388.874)
 		)
 		(stroke
 			(width 0)
@@ -28727,6 +28707,16 @@
 			(type default)
 		)
 		(uuid "8a77e133-a4c1-494b-b9b3-6f7a8ffe6835")
+	)
+	(wire
+		(pts
+			(xy 191.77 385.318) (xy 190.246 385.318)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5ef9b9-8620-4157-a213-5870f356a151")
 	)
 	(wire
 		(pts
@@ -29357,16 +29347,6 @@
 			(type default)
 		)
 		(uuid "a9675648-c3de-46d9-9675-c3f7bc759d5c")
-	)
-	(wire
-		(pts
-			(xy 553.466 310.134) (xy 553.466 315.214)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e6e854-ef5f-4164-8f3a-6fbec50e863e")
 	)
 	(wire
 		(pts
@@ -30130,6 +30110,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.236 393.954) (xy 256.032 393.954)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd04cb4e-f62b-4cf7-a518-d1e0e449fd45")
+	)
+	(wire
+		(pts
 			(xy 190.5 102.87) (xy 165.1 102.87)
 		)
 		(stroke
@@ -30150,7 +30140,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.382 386.334) (xy 137.668 386.334)
+			(xy 110.998 386.334) (xy 113.284 386.334)
 		)
 		(stroke
 			(width 0)
@@ -30187,6 +30177,16 @@
 			(type default)
 		)
 		(uuid "d0f16834-a472-46b1-908b-01c9e4cb9153")
+	)
+	(wire
+		(pts
+			(xy 208.026 391.414) (xy 221.996 391.414)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d134727b-40ea-45cf-b0d8-c51ccb910068")
 	)
 	(wire
 		(pts
@@ -30540,7 +30540,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.342 335.026) (xy 73.152 335.026)
+			(xy 69.342 335.026) (xy 90.678 335.026)
 		)
 		(stroke
 			(width 0)
@@ -30650,13 +30650,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.678 335.026) (xy 90.678 333.756)
+			(xy 108.204 335.026) (xy 108.204 333.756)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e59dc0a8-4b48-467c-a566-27f2791481c8")
+	)
+	(wire
+		(pts
+			(xy 190.246 391.414) (xy 192.786 391.414)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e66c46c9-dab8-42ff-a018-cada542e1658")
 	)
 	(wire
 		(pts
@@ -30980,7 +30990,7 @@
 	)
 	(wire
 		(pts
-			(xy 183.134 388.874) (xy 199.39 388.874)
+			(xy 158.75 388.874) (xy 175.006 388.874)
 		)
 		(stroke
 			(width 0)
@@ -31300,6 +31310,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.246 385.318) (xy 190.246 391.414)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff71349c-3e40-4d12-a136-28ad8cfc0e38")
+	)
+	(wire
+		(pts
 			(xy 553.466 279.4) (xy 553.466 282.702)
 		)
 		(stroke
@@ -31358,8 +31378,8 @@
 		)
 		(uuid "08692b0d-ef86-4958-8e94-57f0d86788b4")
 	)
-	(label "DUART_OR_LCD"
-		(at 153.67 388.874 0)
+	(label "DUART_LCD_ACK"
+		(at 129.286 388.874 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31367,6 +31387,16 @@
 			(justify left bottom)
 		)
 		(uuid "0cf8bc81-71ae-4310-86d3-f61327902d07")
+	)
+	(label "{slash}IO_ACK_ALL"
+		(at 239.268 393.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d9e02cf-c87a-46bd-84b0-9182a7ee1cf6")
 	)
 	(label "MEM_READY"
 		(at 153.162 365.506 0)
@@ -31439,7 +31469,7 @@
 		(uuid "42ee72ad-7546-4197-a140-c165e41b22bd")
 	)
 	(label "{slash}IO_ACK"
-		(at 243.84 391.414 0)
+		(at 208.788 391.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31548,6 +31578,16 @@
 		)
 		(uuid "ac55392b-30c3-4a03-93da-4c827b695709")
 	)
+	(label "{slash}CS_LED"
+		(at 74.93 335.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b20ca6c5-fdda-4551-8cdc-6750d0cbbe87")
+	)
 	(label "OVL_D"
 		(at -128894.332 61045.598 0)
 		(effects
@@ -31568,8 +31608,8 @@
 		)
 		(uuid "c457f80f-50c3-4e69-9ada-4db23d72bc24")
 	)
-	(label "DUART_LCD_ACK"
-		(at 184.404 388.874 0)
+	(label "{slash}DUART_LCD_ACK"
+		(at 159.258 388.874 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31618,8 +31658,8 @@
 		)
 		(uuid "e7423ce0-4fd2-4583-8caa-9e777b05a645")
 	)
-	(label "IO_ANY"
-		(at 215.392 391.414 0)
+	(label "DURAT_LCD_RTS_ACK"
+		(at 191.77 385.318 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -34484,7 +34524,7 @@
 	)
 	(global_label "{slash}CS_LCD"
 		(shape input)
-		(at 135.382 391.414 180)
+		(at 110.998 391.414 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34494,7 +34534,7 @@
 		)
 		(uuid "7b49e0c2-06e7-4ac2-bd7c-6d3cc6cd51f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.0511 391.414 0)
+			(at 99.6671 391.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34567,6 +34607,30 @@
 		(uuid "7d86f946-26c9-4154-a20d-a50ec6eff073")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.7229 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "{slash}CS_LED"
+		(shape input)
+		(at 219.71 396.494 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80027659-7e8a-4670-9610-f4a1de090782")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.5001 396.494 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35394,7 +35458,7 @@
 	)
 	(global_label "{slash}DUART_ACK"
 		(shape input)
-		(at 135.382 386.334 180)
+		(at 110.998 386.334 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35404,7 +35468,7 @@
 		)
 		(uuid "9fa9739c-a4ef-45eb-a1a9-d547e0147350")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5434 386.334 0)
+			(at 96.1594 386.334 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36066,7 +36130,7 @@
 	)
 	(global_label "{slash}CS_RTC"
 		(shape input)
-		(at 199.39 393.954 180)
+		(at 175.006 393.954 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36076,7 +36140,7 @@
 		)
 		(uuid "c507041a-47a6-490e-b4c3-8f25aa58c82e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1196 393.954 0)
+			(at 163.7356 393.954 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39314,8 +39378,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 76.962 335.026 0)
-		(mirror y)
+		(at 94.488 335.026 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39325,7 +39388,7 @@
 		(dnp no)
 		(uuid "27af4777-22c6-48a7-893f-b5022ac13c43")
 		(property "Reference" "D2"
-			(at 78.232 329.438 90)
+			(at 93.218 329.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39336,7 +39399,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 75.946 329.184 90)
+			(at 95.504 329.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39347,7 +39410,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 76.962 335.026 0)
+			(at 94.488 335.026 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39358,7 +39421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.962 335.026 0)
+			(at 94.488 335.026 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39369,7 +39432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.962 335.026 0)
+			(at 94.488 335.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45867,7 +45930,7 @@
 	(symbol
 		(lib_name "+5V_20")
 		(lib_id "power:+5V")
-		(at 90.678 333.756 0)
+		(at 108.204 333.756 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45878,7 +45941,7 @@
 		(fields_autoplaced yes)
 		(uuid "8552aa83-bd5f-425f-add7-2fd70dfa8452")
 		(property "Reference" "#PWR053"
-			(at 90.678 337.566 0)
+			(at 108.204 337.566 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45889,7 +45952,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 90.678 328.676 0)
+			(at 108.204 328.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45899,7 +45962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.678 333.756 0)
+			(at 108.204 333.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45910,7 +45973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.678 333.756 0)
+			(at 108.204 333.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45921,7 +45984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.678 333.756 0)
+			(at 108.204 333.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48303,7 +48366,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS08")
-		(at 561.086 312.674 0)
+		(at 229.616 393.954 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48314,7 +48377,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c1e333f-9475-4493-b0a6-2df78b93a5ab")
 		(property "Reference" "U14"
-			(at 561.0777 304.419 0)
+			(at 229.6077 385.699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48324,7 +48387,7 @@
 			)
 		)
 		(property "Value" "74LS08"
-			(at 561.0777 306.959 0)
+			(at 229.6077 388.239 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48334,7 +48397,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 561.086 312.674 0)
+			(at 229.616 393.954 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48345,7 +48408,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
-			(at 561.086 312.674 0)
+			(at 229.616 393.954 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48356,7 +48419,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 561.086 312.674 0)
+			(at 229.616 393.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48418,7 +48481,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 84.582 335.026 270)
+		(at 102.108 335.026 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48429,7 +48492,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d3ad6f2-e3cf-409c-8481-aa531aece9cf")
 		(property "Reference" "R18"
-			(at 84.582 329.438 90)
+			(at 102.108 329.438 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48439,7 +48502,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 84.582 331.978 90)
+			(at 102.108 331.978 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48449,7 +48512,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 84.582 333.248 90)
+			(at 102.108 333.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48460,7 +48523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.582 335.026 0)
+			(at 102.108 335.026 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48471,7 +48534,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 84.582 335.026 0)
+			(at 102.108 335.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52280,7 +52343,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS00")
-		(at 207.01 391.414 0)
+		(at 182.626 391.414 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52290,7 +52353,7 @@
 		(dnp no)
 		(uuid "cdcfcc2f-8e41-457b-8d19-d7c33268dfd6")
 		(property "Reference" "U13"
-			(at 207.264 397.51 0)
+			(at 182.88 397.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52300,7 +52363,7 @@
 			)
 		)
 		(property "Value" "74LS00"
-			(at 207.264 400.05 0)
+			(at 182.88 400.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52310,7 +52373,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 207.01 391.414 0)
+			(at 182.626 391.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52321,7 +52384,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
-			(at 207.01 391.414 0)
+			(at 182.626 391.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52332,7 +52395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 391.414 0)
+			(at 182.626 391.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53882,7 +53945,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 234.95 391.414 0)
+		(at 200.406 391.414 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -53892,7 +53955,7 @@
 		(dnp no)
 		(uuid "de085517-6429-4f52-bb9f-9a30048c9f60")
 		(property "Reference" "U10"
-			(at 234.95 396.24 0)
+			(at 200.406 396.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53902,7 +53965,7 @@
 			)
 		)
 		(property "Value" "74LS04"
-			(at 234.95 398.78 0)
+			(at 200.406 398.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53912,7 +53975,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 234.95 391.414 0)
+			(at 200.406 391.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53923,7 +53986,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 234.95 391.414 0)
+			(at 200.406 391.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53934,7 +53997,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 234.95 391.414 0)
+			(at 200.406 391.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55678,7 +55741,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS00")
-		(at 145.288 388.874 0)
+		(at 120.904 388.874 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -55689,7 +55752,7 @@
 		(fields_autoplaced yes)
 		(uuid "e985b2e8-c5b6-4a49-9787-2f312777294e")
 		(property "Reference" "U13"
-			(at 145.2797 379.984 0)
+			(at 120.8957 379.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55699,7 +55762,7 @@
 			)
 		)
 		(property "Value" "74LS00"
-			(at 145.2797 382.524 0)
+			(at 120.8957 382.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55709,7 +55772,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 145.288 388.874 0)
+			(at 120.904 388.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55720,7 +55783,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
-			(at 145.288 388.874 0)
+			(at 120.904 388.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55731,7 +55794,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 145.288 388.874 0)
+			(at 120.904 388.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56611,7 +56674,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 175.514 388.874 0)
+		(at 151.13 388.874 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -56622,7 +56685,7 @@
 		(fields_autoplaced yes)
 		(uuid "f900231f-aa44-4ad0-aa9a-d23b360f0e2b")
 		(property "Reference" "U10"
-			(at 175.514 379.984 0)
+			(at 151.13 379.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56632,7 +56695,7 @@
 			)
 		)
 		(property "Value" "74LS04"
-			(at 175.514 382.524 0)
+			(at 151.13 382.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -56642,7 +56705,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 175.514 388.874 0)
+			(at 151.13 388.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56653,7 +56716,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 175.514 388.874 0)
+			(at 151.13 388.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56664,7 +56727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.514 388.874 0)
+			(at 151.13 388.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

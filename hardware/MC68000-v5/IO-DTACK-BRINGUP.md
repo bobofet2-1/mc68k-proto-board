@@ -73,8 +73,9 @@ low only when both the DUART decoder output and the low-byte strobe are low:
 | U8D, 74LS32 | 13 | `/LDS` |
 | U8D, 74LS32 | 11 | `/DUART_CS`, IC1 pin 35 |
 
-Disconnect U14B pin 6 from the IC1 `/CS` net. U14B is then unused; tie
-its inputs, pins 4 and 5, to defined logic levels and leave pin 6 open.
+Disconnect U14B pin 6 from the IC1 `/CS` net. If the optional D2 test LED
+extension below is not fitted, tie its inputs, pins 4 and 5, to defined logic
+levels and leave pin 6 open.
 
 ## Step 3: expose the DUART acknowledgement
 
@@ -165,6 +166,47 @@ Keep U17A as the final active-low acknowledgement gate:
 
 Ensure no former U26C/U10B DTACK output is still connected to the `/DTACK` net.
 
+## Optional Step 8: add D2 as a software-visible test LED
+
+The current v5 schematic connects D2 to U29 Y7. Based on the actual decoder
+inputs (`U11 A0-A2 = BA21-BA23` and `U29 A0-A2 = BA17-BA19`), Y7 is selected
+by accesses in the `0x8E0000-0x8FFFFF` window. The source
+`firmware\src\d2_flash.asm` uses `0x008E0000`.
+
+D2 is directly driven by the active-low decoder output, not by a latch. It
+lights only while Y7 is selected. Firmware therefore repeatedly accesses the
+address during its on phase to produce visible average current.
+
+First correct the LED polarity:
+
+```text
++5V -> R18 -> D2 anode
+D2 cathode -> U29 pin 7 (Y7), named /CS_LED
+```
+
+Then use the currently unused U14B 74LS08 to include `/CS_LED` in the I/O
+acknowledgement:
+
+```text
+/IO_ACK_WITH_LED = /IO_ACK AND /CS_LED
+```
+
+| Gate or pin | Connect to |
+|---|---|
+| U14B, 74LS08 pin 4 | `/IO_ACK`, U10B pin 4 |
+| U14B, 74LS08 pin 5 | `/CS_LED`, U29 pin 7 |
+| U14B, 74LS08 pin 6 | `/IO_ACK_WITH_LED` |
+| U25D, 74LS00 pin 13 | `/IO_ACK_WITH_LED`, U14B pin 6 |
+
+Remove the previous direct U10B pin 4 to U25D pin 13 connection. This change
+does not alter DUART, LCD, or RTC acknowledgement: an assertion from any of
+those sources still makes `/IO_ACK_WITH_LED` low. It adds immediate
+acknowledgement for the LED-select access so the CPU does not wait forever.
+
+Do not use the `0x500000`-series labels previously drawn near U29 for firmware
+addresses. They do not match the decoder address-bit connections in the saved
+v5 schematic.
+
 ## Expected truth table
 
 Assume `/AS=0` during each valid cycle.
@@ -178,6 +220,7 @@ Assume `/AS=0` during each valid cycle.
 | DUART, DTACK asserted | 1 | 0 | 0 | 0 |
 | LCD selected | 1 | 0 | 0 | 0 |
 | RTC selected | 1 | 0 | 0 | 0 |
+| D2 selected, optional Step 8 fitted | 1 | 0 | 0 | 0 |
 | Unmapped address | 1 | 1 | 1 | 1 |
 
 ## Gates intentionally left in reserve
