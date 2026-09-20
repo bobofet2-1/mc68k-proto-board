@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "RTC")(type "KiCad")(uri "${KIPRJMOD}/RTC.kicad_sym")(options "")(descr ""))
-)
