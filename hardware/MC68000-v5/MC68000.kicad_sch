@@ -52654,7 +52654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf18f45f-558f-4040-8561-c949b28ae6f2")
-		(property "Reference" "U2"
+		(property "Reference" "U24"
 			(at 392.43 365.2519 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52754,7 +52754,7 @@
 		(instances
 			(project "MC68000"
 				(path "/5c69547b-40ff-41db-a8db-5638c055b360"
-					(reference "U2")
+					(reference "U24")
 					(unit 3)
 				)
 			)
@@ -56012,7 +56012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef48a169-e48f-406e-b3c9-92c24ecb460d")
-		(property "Reference" "U32"
+		(property "Reference" "U24"
 			(at 189.23 324.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -56034,7 +56034,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" ""
 			(at 189.23 332.486 0)
 			(hide yes)
 			(show_name no)
@@ -56046,7 +56046,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ls74a.pdf"
 			(at 189.23 332.486 0)
 			(hide yes)
 			(show_name no)
@@ -56058,7 +56058,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "v4 address-overlay TTL logic"
+		(property "Description" "Dual D Flip-flop, Set & Reset"
 			(at 189.23 332.486 0)
 			(hide yes)
 			(show_name no)
@@ -56115,7 +56115,7 @@
 		(instances
 			(project "MC68000"
 				(path "/5c69547b-40ff-41db-a8db-5638c055b360"
-					(reference "U32")
+					(reference "U24")
 					(unit 1)
 				)
 			)
